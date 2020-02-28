@@ -52,6 +52,7 @@ const App = () => {
         localStorage.setItem("bookmark", JSON.stringify(websites));
         setName("");
         setUrl("");
+        setEdit(false);
       }
       e.target.reset();
     }
