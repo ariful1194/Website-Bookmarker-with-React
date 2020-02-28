@@ -50,6 +50,8 @@ const App = () => {
         });
         setwebsites(newList);
         localStorage.setItem("bookmark", JSON.stringify(websites));
+        setName("");
+        setUrl("");
       }
       e.target.reset();
     }
